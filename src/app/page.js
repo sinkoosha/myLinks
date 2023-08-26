@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Feachers from "@/components/featchers/featchers";
 
@@ -8,10 +9,10 @@ import FreeDownload from "@/components/FreeDownload/FreeDownload";
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <FreeDownload />
       <Feachers />
-      <Price />
+      <Price /> */}
     </>
   );
 }
