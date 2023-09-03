@@ -1,18 +1,16 @@
-"use client";
-import Image from "next/image";
-import Feachers from "@/components/featchers/featchers";
-
 import Hero from "@/components/Hero/Hero";
+import Footer from "@/components/Footer/footer";
 import Price from "@/components/Price/Price";
 import FreeDownload from "@/components/FreeDownload/FreeDownload";
 
 export default function Home() {
   return (
     <>
-      {/* <Hero />
-      <FreeDownload />
-      <Feachers />
-      <Price /> */}
+      <Hero />
+      {/* <FreeDownload /> */}
+
+      <Price />
+      <Footer />
     </>
   );
 }
